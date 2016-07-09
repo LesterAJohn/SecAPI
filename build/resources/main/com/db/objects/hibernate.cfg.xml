@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+< hibernate-configuration >
+	< session-factory > 
+		< property name =" connection.url" > jdbc:derby:memory:SSLWAF; create = true </ property > 
+		< property name =" connection.driver_class" >org.apache.derby.jdbc.EmbeddedDriver </ property >
+		< property name =" connection.username" > jhuser </ property >
+		< property name =" dialect" > org.hibernate.dialect.DerbyDialect </ property >
+	</ session-factory >
+</ hibernate-configuration >
